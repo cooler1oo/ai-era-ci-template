@@ -34,7 +34,7 @@
 ```python
 import pytest
 
-pytestmark = pytest.mark.slow      # 整个文件都是慢测试
+pytestmark = pytest.mark.slow  # 整个文件都是慢测试
 ```
 
 或者单个函数上加 `@pytest.mark.slow`。
